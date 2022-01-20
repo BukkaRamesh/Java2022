@@ -3,7 +3,7 @@ package Sudha;
 public class StringSample {
 	public static void main(String[] args) {
 		
-		String student="Riyansh Tirumalasetti";
+		String student="Luther King";
 		System.out.println("Student name is "+student);
 		
 		String school="Oakridge";
@@ -16,9 +16,9 @@ public class StringSample {
 		String studentinfo=student.concat(school);
 		System.out.println("Student info "+studentinfo);
 		
-		String student1="Riyansh";
-		String student2="         Prahas Tirumalasetti";
-		String student3="Riyansh";
+		String student1="Martin";
+		String student2="         Washington DC";
+		String student3="Martin";
 		
 		System.out.println(student1.replace('i','e'));
 		System.out.println(student2.replace(student2, school));
