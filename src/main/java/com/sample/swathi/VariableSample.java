@@ -51,7 +51,7 @@ public class VariableSample {
 		float f2=(float)i;
 		System.out.println("Type casted integer f2:"+f2);
 		
-		
+		System.out.println("New Line");
 		
 		
 	}
