@@ -30,7 +30,7 @@ public class PersonalLoanSwitchCaseSample {
 			break;
 			
 			default:
-				System.out.println("Fderal goverment current personal load interest is : 12%");
+				System.out.println("Federal goverment current personal load interest is : 12%");
 				
 			
 			}
