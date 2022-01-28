@@ -9,6 +9,17 @@ public class Dealer {
 	public Product product;//Inheritance - Aggregation(HAS_A)
 	
 	
+	
+
+	
+	public Dealer(Address address, String phoneNumber, Product product, String name) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+		this.product = product;
+	}
+
 	public Dealer(Address address, String email, String phoneNumber, Product product) {
 		super();
 		this.address = address;
