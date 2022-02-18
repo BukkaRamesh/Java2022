@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.time.DateTimeException;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
+import java.time.Period;
+
 
 
 
@@ -30,8 +31,8 @@ public class DateFromConsole {
 					System.out.println(s);
 					System.out.println("Current Date         : " + curr_dt);
 					System.out.println("Delivery Date        : " + Del_dt);
-					System.out.println("Difference in Days   : " + ChronoUnit.DAYS.between(curr_dt, Del_dt));
-					System.out.println("Difference in Months : " + ChronoUnit.MONTHS.between(curr_dt, Del_dt));
+					System.out.println("Difference in Days   : " + Period.between(curr_dt, Del_dt).getDays());
+					System.out.println("Difference in Months : " + Period.between(curr_dt, Del_dt).getMonths());
 				}
 				catch(DateTimeException e) {
 					System.out.println("Invalid Date Entered!!! Please check and try again.");
